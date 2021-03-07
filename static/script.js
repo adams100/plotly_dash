@@ -180,6 +180,13 @@ function generateChart() {
                 sizes.push(100*(values/largest));
             });
 
+            // hovertext
+            txt = [];
+            for (var n = 0; n < d.x.length; n++) 
+            {
+                var price = d.y[n].toFixed(2);
+                txt.push("Document#: " + d.doc_num[n] + "<br>Date: " + d.x[n] + "<br>Value: $" + price);
+            }
             var data = [{
                 x: x_transformed,
                 y: d.y,
@@ -188,7 +195,9 @@ function generateChart() {
                     size: sizes,
                     opacity: d.o
                 },
-                hovertemplate: "%{marker.size}",
+                text: txt,
+                hoverinfo: "text",
+                // hovertemplate: "%{d.x}",
                 type: 'scatter'
             }];
             var layout = {
