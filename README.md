@@ -9,5 +9,6 @@ Dynamic plotly bubble graph using randomized data to show an example of technica
 -Javascript<br>
 -D3<br>
 Plotly<br>
+
 ![Preview](pic1.png)
 ![Dropdown](pic2.png)
