@@ -15,4 +15,4 @@ Plotly<br>
 <br>
 
 ![Preview](pic1.png)
-![Dropdown](pic2.png)
+
