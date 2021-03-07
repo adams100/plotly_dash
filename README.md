@@ -8,7 +8,7 @@ Dynamic plotly bubble graph using randomized data to show proficientcy in develo
 -Flask<br>
 -Javascript<br>
 -D3<br>
-Plotly<br>
+-Plotly<br>
 
 <h1><a href="http://plotlychart.herokuapp.com/">SEE IT LIVE HERE!</a></h1>
 
