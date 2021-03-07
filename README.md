@@ -10,5 +10,9 @@ Dynamic plotly bubble graph using randomized data to show proficientcy in develo
 -D3<br>
 Plotly<br>
 
+<h1><a href="http://plotlychart.herokuapp.com/">SEE IT LIVE HERE!</a></h1>
+
+<br>
+
 ![Preview](pic1.png)
 ![Dropdown](pic2.png)
